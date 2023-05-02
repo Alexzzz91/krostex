@@ -1,0 +1,46 @@
+body {
+    background: #f1f1f1!important;
+}
+#col_id{
+	width: 50px;
+}
+#col_lanebelopp{
+	width: 120px;
+}
+#col_personnummer{
+	width: 140px;
+}
+.alkform-detail-view{
+    width: 98%;
+    margin: 45px auto;
+    background: white;
+    border:1px solid #F7F7F7;
+    font-size: 16px;
+}
+.alkform-detail-view tr th{
+	padding: 20px;
+	background-color: #0074A2;
+    color:white;
+}
+.alkform-detail-view tr td{
+	padding: 15px;
+    border: 1px solid #F1F1F1;
+}
+.alkform-detail-view tr:nth-child(odd){
+	background-color: #EAF2FA;
+}
+.postbox{
+	padding: 20px;
+}
+#wpfooter{
+	display: none;
+}
+.dislp-none{
+	display:none;
+}
+#TB_overlay{
+  z-index: 1900050!important;
+}
+#TB_window{
+  z-index: 1900050!important;
+}

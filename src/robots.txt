@@ -1,0 +1,25 @@
+User-agent: *
+Disallow: /wp-  
+Disallow: /xmlrpc.php
+Allow: *?s=              
+Allow: *&s=              
+Allow: /search           
+Allow: /author/          
+Allow: *?attachment_id=
+Allow: */feed
+Allow: */page/           
+Allow: */uploads
+Allow: /*/*.js              
+Allow: /*/*.css             
+Allow: /wp-*.png            
+Allow: /wp-*.jpg            
+Allow: /wp-*.jpeg           
+Allow: /wp-*.gif            
+#Disallow: /wp/    
+Allow: /$
+Allow: /index.html
+Disallow: /         
+
+Host: krostex-beton.ru
+
+Sitemap: http://krostex-beton.ru/sitemap.xml
